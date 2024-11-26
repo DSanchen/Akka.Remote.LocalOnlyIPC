@@ -19,3 +19,6 @@ Other thoughts:
 - Preparing a new inbound connection can possibly fail (when, for example, the name for the used pipe already exists). It is not clear what to do in such an event.
 - It is not completely clear, what to do when a Transport is shut down. Right now I assume, that all used resourced get cleaned up correctly, but I cannot prove it (no unit tests...)
 - I used both the NamedPipe and UnixDomainSockets connections only roughly as a proof of concept on a windows machine. It seems to work so far.
+
+
+Can be used for discussion at https://github.com/akkadotnet/akka.net/discussions/7187
